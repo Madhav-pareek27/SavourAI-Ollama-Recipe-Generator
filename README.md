@@ -117,18 +117,16 @@ OLLAMA_URL=http://127.0.0.1:11434
 
 You can copy the included `.env.example` to `.env` if you have added that example file to the repository. Do **not** commit your real `.env`.
 
-## 🖼️ Screenshots
+## 📸 Application Screenshots
 
-A screenshot of the running Streamlit dashboard will help visitors understand the interface.
+### 🖥️ SavourAI Dashboard
 
-1. Run SavourAI on your computer.
-2. Capture the dashboard and a generated recipe.
-3. Save the images as `assets/screenshots/dashboard.png` and `assets/screenshots/recipe-result.png`.
-4. Replace this section with the following Markdown **after the files exist**:
+![SavourAI Dashboard](assets/screenshots/dashboard.png)
 
-```markdown
-![SavourAI dashboard](assets/screenshots/dashboard.png)
-![Generated recipe example](assets/screenshots/recipe-result.png)
+### 🍽️ AI-Generated Recipe
+
+![SavourAI Recipe Result](assets/screenshots/recipe-result.png)
+
 ```
 
 ## 📁 Repository structure
