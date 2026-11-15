@@ -1,0 +1,26 @@
+SAVOURAI — LOCAL OLLAMA (llama3.2)
+=================================
+
+NO GROQ API KEY. Uses your existing llama3.2 Ollama model locally.
+
+1) Open PowerShell and check:  ollama list
+2) Open THIS folder (containing app.py) in VS Code.
+3) Run in VS Code terminal:
+
+   py -3.12 -m venv .venv
+   .\.venv\Scripts\Activate.ps1
+   python -m pip install -r requirements.txt
+   python -m streamlit run app.py
+
+4) Browse to http://localhost:8501
+
+OR double click start_windows.bat to set up and launch.
+
+IF YOU SEE "app.py not found": you're in the wrong directory.
+Check with: dir app.py
+
+If Ollama is unreachable, open the Ollama desktop app from Start menu.
+If it's not running, you can instead launch 'ollama serve' in a separate PowerShell.
+
+.env file is OPTIONAL. Default model: llama3.2
+Full instructions in README.md.

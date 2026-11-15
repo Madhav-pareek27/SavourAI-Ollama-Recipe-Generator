@@ -1,0 +1,23 @@
+
+# Python environment
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Private configuration
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Local databases and logs
+*.db
+*.sqlite
+*.sqlite3
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
